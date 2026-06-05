@@ -6,6 +6,8 @@ Use this repo to practise agentic development on a real project without relying 
 
 There's a fair bit in here to read and get your head around. It's all designed to help real development though and will make for massively better results than YOLO vibe coding. 
 
+The repo is setup for use with VSCode and github Copilot (and access to any model available through that). However the structure and approaches should be easily adaptable (a few file or dir name changes) to other environments and tools (e.g. Claude Code, Codex, Antigravity), and the general principles will still apply.
+
 Even if all you start with is using the main agent instructions file [.github/copilot-instructions.md](./.github/copilot-instructions.md, or AGENTS.md) and the definition-of-done file, you'll see a huge difference. 
 
 The content in the md files in .github/ and docs/ are just an example starting point. You can add to it, change it, or remove parts that don't work for you. The main thing is to have a clear and persistent set of instructions and rules for the agent to follow (so it produces more consistent and reliable results), and a clear way to record what you're doing and what the state of the project is. The rest is just scaffolding to help you do that.
@@ -48,9 +50,28 @@ In short:
 - Skill = reusable workflow
 - Agent = reusable role
 
-## Example Flow
+## How To Use The Harness
 
-One sensible way to work on a feature is:
+Use the repo layers in this order:
+
+- Start with the main instructions file in [.github/copilot-instructions.md](./.github/copilot-instructions.md). This is the always-on rules layer.
+- Keep your project truth in [docs/requirements.md](./docs/requirements.md), [docs/checkpoint.md](./docs/checkpoint.md), and [docs/devlog.md](./docs/devlog.md). Update those when the plan, recent state, checks, or next likely slice changes.
+- Use a prompt from [.github/prompts](./.github/prompts/) when you want a quick one-off task such as tightening requirements or planning the next slice.
+- Use a skill from [.github/skills](./.github/skills/) when you want the agent to follow a repeatable workflow such as implementing a feature, debugging a failure, or ending a session cleanly.
+- Use a custom agent from [.github/agents](./.github/agents/) only when you want the whole chat to stay in one role such as planner, implementer, reviewer, or web tester.
+- Treat [.github/instructions](./.github/instructions/) as supporting guidance for specific kinds of work, not as the main project record.
+
+If you are new to this, keep it simple:
+
+1. Fill in [docs/requirements.md](./docs/requirements.md).
+2. Use [docs/checkpoint.md](./docs/checkpoint.md) to capture the current task, what now works, the last check run, and the next prompt or likely slice.
+3. Use a prompt to tighten requirements or plan one small slice.
+4. Implement that slice with the default agent or the `implementer` agent.
+5. Run one check, then update [docs/devlog.md](./docs/devlog.md) and [docs/checkpoint.md](./docs/checkpoint.md).
+
+## Example Custom Agent Flow
+
+For using the custom agents (type `[agent name]/ your prompt` in the chat), one sensible way to work on a feature is:
 
 1. Use the `planner` agent to choose the next small slice and name one validation check.
 2. Switch to the `implementer` agent to build just that slice and run the check.
@@ -81,7 +102,7 @@ You do not have to use all of these every time. The point is to make the roles c
 
 ## Working Loop (when you've decided on a project and have the basics set up)
 
-1. Read the current task in [docs/checkpoint.md](./docs/checkpoint.md).
+1. Review the current [docs/checkpoint.md](./docs/checkpoint.md).
 2. Use a prompt from [.github/prompts](./.github/prompts/), switch to a custom agent in [.github/agents](./.github/agents/), or ask the agent for the smallest useful slice.
 3. Implement one change.
 4. Run one relevant check.

@@ -111,11 +111,6 @@ At a minimum, you should be checking:
 - whether the code still makes sense to you
 - whether a new dependency or wider change has been introduced without good reason
 
-So that's a very brief introduction to agentic development and harness engineering. These approaches are where the industry is heading and in places actually using today, so they are becoming increasingly important for software developers to understand and be proficient with.
-
-**There is a template repo for you to use to practice this with your own project. See the agentic-dev folder**
-
-Start with the README.md in that folder, which has more detailed guidance on how to use the repo and the different files in it.
 
 ### Choosing a project for agent development
 
@@ -126,3 +121,11 @@ At the same time, it still needs to be small enough to finish, test properly, an
 One project to avoid would probably be a simple website or a 'todo app' because these are so common that there are a lot of examples and templates out there, so you won't get as much value from practicing the techniques above on these kinds of projects and it's unlikely to impress an employer.
 
 Always use version management (git) with your project, and make regular commits with good commit messages. This will help you track your progress, be able to revert the repo when AI falls over and deletes stuff, and also give you a nice commit history to show to employers if you use this project as a portfolio piece.
+
+### Ready to start
+
+So that's a very brief introduction to agentic development and harness engineering. These approaches are where the industry is heading and in places actually using today, so they are becoming increasingly important for software developers to understand and be proficient with.
+
+**There is a template repo for you to use to practice this with your own project. See the agentic-dev folder**
+
+Start with the README.md in that folder, which has more detailed guidance on how to use the repo and the different files in it.
