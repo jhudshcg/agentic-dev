@@ -1,0 +1,15 @@
+# don't track files that are not part of the project source.
+# Also don't track any files that might contain sensitive info like API keys.
+
+# Python
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+
+# General
+.DS_Store
