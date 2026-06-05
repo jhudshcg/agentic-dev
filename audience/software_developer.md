@@ -17,4 +17,4 @@ Some of the benefits of Angetic development include:
 - Faster recovery when the agent gets confused, guesses badly, or goes off track.
 - A setup that gets more useful over time as you improve the docs, prompts, and workflow.
 
-For more details on getting started, see [agentic-dev](../agentic-dev.md).
+For more details on getting started, see [agentic-dev](../agentic-dev.md) and the main [README](../README.md).

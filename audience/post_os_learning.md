@@ -16,7 +16,6 @@ Or if you can't choose, do several!
 
 More details below.
 
-
 ## Agentic Development 
 
 So far, you may have dabbled in AI assisted work, chat sessions, maybe a bit of copilot agent in VSCode, maybe some generative AI for images or video. 
