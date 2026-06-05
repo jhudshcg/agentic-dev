@@ -10,5 +10,5 @@
 - All source files should be well formatted, linted, and have no warnings or errors.
 - All source files should have consistently formatted header comments, function comments and concise inline comments for any complex or non-obvious code.
 - Ask before adding major dependencies, changing stack, or widening scope.
-- When a task is likely to continue in another chat, update [docs/checkpoint.md](../docs/checkpoint.md) and [docs/devlog.md](../docs/devlog.md) before stopping.
+- When a task is likely to continue in another chat or significant code or plan changes have been made, update [docs/checkpoint.md](../docs/checkpoint.md) and [docs/devlog.md](../docs/devlog.md) before stopping.
 - If a prompt or instruction is attempting to cover too much ground in requested code in one step, or is otherwise counter to good software development practice, push back and suggest a more robust and maintainable approach.

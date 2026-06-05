@@ -65,7 +65,7 @@ You do not have to use all of these every time. The point is to make the roles c
 1. Read [docs/project-chooser.md](./docs/project-chooser.md) and pick one project idea.
 2. Replace the placeholders in [docs/requirements.md](./docs/requirements.md).
 3. Open [docs/definition-of-done.md](./docs/definition-of-done.md) so quality stays visible.
-4. Choose either [examples/python-starter](./examples/python-starter/) or [examples/node-starter](./examples/node-starter/) if you want a tiny runnable baseline.
+4. Choose either [examples/python-starter](./examples/python-starter/) or [examples/node-starter](./examples/node-starter/) if you want a tiny runnable demo. You'll need to add some requirements for the demo to the requirements.md file - see the example README.md files in those folders for ideas.
 5. Start with one feature that can be built and checked in one sitting.
 
 ## Repo Map

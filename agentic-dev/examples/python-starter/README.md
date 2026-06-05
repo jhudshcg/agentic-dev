@@ -56,6 +56,39 @@ This is the kind of result you could plausibly get after the first few prompts w
 
 The harness stays focused on requirements, checkpoints, and workflow. The demo code becomes a genuine part of the app.
 
+## Example Requirements To Copy Into The Harness
+
+If you wanted to practise with this demo in the full agent harness, your `requirements.md` could start something like this:
+
+- Name: Folder audit CLI
+- One-sentence goal: Scan a folder and highlight the files and directories most worth reviewing first.
+- Main user or audience: Developers or technical users cleaning up local project folders.
+
+Must-have features:
+
+- scan one folder recursively
+- report the largest files in the tree
+- report files older than a chosen threshold
+- list empty directories
+- format the result as clear terminal output
+
+Stretch features:
+
+- allow excluding folders such as `node_modules` or `.git`
+- export the report as JSON or CSV
+
+Not in scope yet:
+
+- deleting files automatically
+- watching folders continuously for changes
+- syncing reports to a remote service
+
+Success checks:
+
+- user can see the largest files in the scanned folder
+- user can see which files are older than the configured threshold
+- audit test passes for large files, old files, and empty directory reporting
+
 ## Plausible Prompt Sequence
 
 First prompt, after typing `/` and choosing `Tighten Requirements`:
@@ -97,3 +130,12 @@ py -m venv .venv
 .\.venv\Scripts\python.exe -m pytest -q
 .\.venv\Scripts\python.exe -m src.demo
 ```
+
+## Next Slices To Try With The Harness
+
+Two sensible follow-up slices for practice are:
+
+1. Add a CLI argument for the age threshold so the user can change what counts as an old file.
+2. Add an exclude list for folders such as `.git`, `node_modules`, or `dist`.
+
+Both are small enough to plan, implement, test, and record in the checkpoint without widening the project too quickly.

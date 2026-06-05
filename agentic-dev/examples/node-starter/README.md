@@ -45,6 +45,38 @@ This is the kind of result you could plausibly get after the first few prompts w
 
 The harness stays focused on requirements, checkpoints, and workflow. The demo code becomes a genuine part of the app.
 
+## Example Requirements To Copy Into The Harness
+
+If you wanted to practise with this demo in the full agent harness, your `requirements.md` could start something like this:
+
+- Name: Booking slot availability widget
+- One-sentence goal: Show the next available booking slot and the status of upcoming slots in a small embeddable widget.
+- Main user or audience: Users booking a studio, class, or appointment online.
+
+Must-have features:
+
+- show the next available slot from a list of upcoming slots
+- label each slot as open, low availability, or sold out
+- show a short summary count of available, low, and sold out slots
+- render the result as reusable HTML that can be dropped into a page
+
+Stretch features:
+
+- allow filtering by location or session type
+- sort slots by earliest time or best availability
+
+Not in scope yet:
+
+- user accounts
+- booking confirmation or payment flow
+- live sync with a backend or calendar system
+
+Success checks:
+
+- user can immediately see the next available slot
+- sold out and low-availability slots are clearly labelled
+- widget rendering test passes for summary text and slot status classes
+
 ## Plausible Prompt Sequence
 
 First prompt, after typing `/` and choosing `Tighten Requirements`:
@@ -86,3 +118,12 @@ npm.cmd run demo
 ```
 
 After running the demo, open `dist/demo.html` in a browser.
+
+## Next Slices To Try With The Harness
+
+Two sensible follow-up slices for practice are:
+
+1. Add slot sorting and prove the next available slot still comes from the earliest valid slot.
+2. Add a simple location filter so the widget only shows slots for one chosen venue.
+
+You could ask the agent to plan or implement either of those as one small slice, then name one focused test to run afterwards.

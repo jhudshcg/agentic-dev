@@ -1,5 +1,7 @@
 # Requirements
 
+Read also `spec.md` for more detailed design and architecture planning, unless it says 'just a template' near the top.
+
 ## Project
 
 - Name: [replace me]
