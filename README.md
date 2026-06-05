@@ -4,7 +4,7 @@ This resource was originally created for T-Level software developer students to 
 
 See contents of `audience/` for more specific advice for software developers and T-Level students.
 
-For a general overview of agentic development and its benefits, see [`agentic-dev.md`](./agentic-dev.md). If you're unsure about what different terms mean, or if it's worth the effort, definitely check that out first.
+**For a general overview of agentic development and its benefits, see [`agentic-dev.md`](./agentic-dev.md). If you're unsure about what different terms mean, or if it's worth the effort, definitely check that out first.**
 
 Use this repo to practise agentic development on a real project without relying on long, fragile chat history.
 
