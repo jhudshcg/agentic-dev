@@ -75,7 +75,7 @@ If you are new to this, keep it simple:
 
 ## Example Custom Agent Flow
 
-For using the custom agents (type `[agent name]/ your prompt` in the chat), one sensible way to work on a feature is:
+For using the custom agents (select the agent from the agent dropdown in chat), one sensible way to work on a feature is:
 
 1. Use the `planner` agent to choose the next small slice and name one validation check.
 2. Switch to the `implementer` agent to build just that slice and run the check.
@@ -83,7 +83,6 @@ For using the custom agents (type `[agent name]/ your prompt` in the chat), one 
 4. If the feature is a real web flow, switch to the `web-tester` agent to add one small Playwright smoke test.
 
 You do not have to use all of these every time. The point is to make the roles clear when the task needs them.
-
 
 ## First Session (after you've cloned the repo)
 
