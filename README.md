@@ -1,4 +1,4 @@
-# Agentic Dev Starter
+# Agentic Development - how to get started
 
 This resource was originally created for T-Level software developer students to learn about agentic development as a final year, post exam project, before they go to university or into work. However, it is also suitable for any software developer who wants to learn about and practice agentic development on a real project. The approaches detailed here are being used successfully on real projects.
 
