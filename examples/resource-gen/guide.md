@@ -10,6 +10,6 @@ Even with a well honed harness, and using frontier models, expect to still need 
 
 However, if you put a chunk of work into correcting output and updating the harness for the first few modules/topics or sub-topics, then use those improved examples as additional references in the AGENTS.md file. After referencing those good examples you can also show some clearly labled counter-examples of what you don't want. If you do those things then improvements should be seen and less manual fixes will be required.
 
-If your resources should consist of many files with a consistent style or layout, break the stype rules out into a separate md file. If there are any components of the resources that are common, have those components actually defined in one place where possible and linked to from where they are used. E.g. if there is css involved, have those css files created in one place and linked from the resoures where they're needed, rather than inlining the css.
+If your resources should consist of many files with a consistent style or layout, break the style rules out into a separate md file. If there are any components of the resources that are common, have those components actually defined in one place where possible and linked to from where they are used. E.g. if there is css involved, have those css files created in one place and linked from the resoures where they're needed, rather than inlining the css.
 
 For an example of this in practice, see https://github.com/jhudshcg/Strudel-l1 
