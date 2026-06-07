@@ -1,6 +1,6 @@
 # Agentic Development - how to get started
 
-This resource was originally created for T-Level software developer students to learn about agentic development as a final year, post exam project, before they go to university or into work. However, it is also suitable for any software developer who wants to learn about and practice agentic development on a real project. The approaches detailed here are being used successfully on real projects.
+This resource was originally created for T-Level software developer students to learn about agentic development as a final year, post exam project, before they go to university or into work. However, it is also suitable for any software developer who wants to learn about and practice agentic development on a real project. The approaches detailed here are being used successfully on real projects. Additional guidance has been added for teachers wanting to use harnesses for generating learning resources.
 
 See contents of `audience/` for more specific advice for software developers and T-Level students.
 
@@ -101,7 +101,7 @@ You do not have to use all of these every time. The point is to make the roles c
 - [.github/skills](./.github/skills/): repeatable workflows for feature work, debugging, and session wrap-up.
 - [docs](./docs/): project requirements, spec notes, checkpoint, dev log, and quality bar.
 - [docs/web-testing.md](./docs/web-testing.md): optional Playwright add-on for real web app user journeys.
-- [examples](./examples/): tiny Python and Node starters with tests.
+- [examples](./examples/): tiny Python and Node starters with tests for software dev applications, and resource-gen with guidance for using harnesses for teachers wanting to generate learning resources.
 
 ## Working Loop (when you've decided on a project and have the basics set up)
 
