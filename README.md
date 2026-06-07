@@ -38,7 +38,6 @@ Custom agents are a thinner layer on top. They are useful when you want the assi
 - More consistent behaviour for each type of task.
 - A cleaner way to limit or narrow the tools used for a task.
 - Better support for handoffs such as plan first, implement second, review last.
-- An easier way to give different students different levels of structure.
 
 ## When To Use A Prompt, Skill, Or Agent
 
@@ -64,6 +63,7 @@ Use the repo layers in this order:
 - Use a skill from [.github/skills](./.github/skills/) when you want the agent to follow a repeatable workflow such as implementing a feature, debugging a failure, or ending a session cleanly.
 - Use a custom agent from [.github/agents](./.github/agents/) only when you want the whole chat to stay in one role such as planner, implementer, reviewer, or web tester.
 - Treat [.github/instructions](./.github/instructions/) as supporting guidance for specific kinds of work, not as the main project record.
+- Use content of [docs/](docs/) for more project specific documentation and instructions.
 
 If you are new to this, keep it simple:
 
