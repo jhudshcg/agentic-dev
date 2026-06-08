@@ -16,32 +16,32 @@ For an example of this in practice, see https://github.com/jhudshcg/Strudel-l1
 
 Here is an example structure that could be used to help generate a resource set for an entire spec with a mix of exam and project based assessment, in reviewed stages:
 
-- AGENTS.md  // detail rules for working, dos and don'ts, and any step by step processes to be followed. Use this file to reference other docs and require the use of checkpoint files.
-- docs/ // put resource set specific guidance and reference material in here
-  -  coursespec.md   // carefully checked md format version of the course specification 
-  -  assessment_ref/  // put reference assessment material for the agent to study, in order to match style, topics and level of questions, when it generates new questions, mark schemes and projects as part of learning resources
-    -  paper1_a.md
-    -  paper2_a.md
-    -  paper1_b.md
-    -  paper2_b.md
-    -  paper1_c.md
-    -  paper2_c.md
-    -  paper1_a_ms.md
-    -  paper2_a_ms.md
-    -  paper1_b_ms.md
-    -  paper2_b_ms.md
-    -  paper1_c_ms.md
-    -  paper2_c_ms.md
-    -  project1_rubric.md
-    -  project2_rubric.md
-    -  ...
-  -  checkpoint_<date1>.md  // persist state and direction between sessions relating work on resources
-  -  checkpoint_<date2>.md  // use different dated checkpoint files to manage work on different dates. alternatively can divide checkpoints by resource features.
+- AGENTS.md  # detail rules for working, dos and don'ts, and any step by step processes to be followed. Use this file to reference other docs and require the use of checkpoint files.
+- docs/ # put resource set specific guidance and reference material in here
+  - reference_materials/  # put reference assessment material for the agent to study, in order to match style, topics and level of questions, when it generates new questions, mark schemes and projects as part of learning resources
+    - coursespec.md   # carefully checked md format version of the course specification 
+    - paper1_a.md
+    - paper2_a.md
+    - paper1_b.md
+    - paper2_b.md
+    - paper1_c.md
+    - paper2_c.md
+    - paper1_a_ms.md
+    - paper2_a_ms.md
+    - paper1_b_ms.md
+    - paper2_b_ms.md
+    - paper1_c_ms.md
+    - paper2_c_ms.md
+    - project1_rubric.md
+    - project2_rubric.md
+    - ...
+  -  checkpoint_<date1>.md  # persist state and direction between sessions relating work on resources
+  -  checkpoint_<date2>.md  # use different dated checkpoint files to manage work on different dates. alternatively can divide checkpoints by resource features.
   -  ...
-  - learner_profile.md  // describe the level and type of student which the resources are being make for
-  - requirements.md   // detail the objective for the resource set, and the requirements for the resources to be generated, including any specific requirements for style, tone, format, structure, content, length etc. that should be followed across the resource set. This file can be referenced from AGENTS.md and checkpoint files to help guide generation and maintain consistency across the resource set.
-  - resource_set_template.md  // more detailed template (if needed) for the type and structure of resources to be made, including naming conventions, types and number of files for each subtopic, sections to include in each type of file, how many exam style question to generate for each activities file, styles to (re)use, etc.
-- resources/   // contents of folder to be generated or added to by the agent
+  - learner_profile.md  # describe the level and type of student which the resources are being make for
+  - requirements.md   # detail the objective for the resource set, and the requirements for the resources to be generated, including any specific requirements for style, tone, format, structure, content, length etc. that should be followed across the resource set. This file can be referenced from AGENTS.md and checkpoint files to help guide generation and maintain consistency across the resource set.
+  - resource_set_template.md  # more detailed template (if needed) for the type and structure of resources to be made, including naming conventions, types and number of files for each subtopic, sections to include in each type of file, how many exam style question to generate for each activities file, styles to (re)use, etc.
+- resources/   # contents of folder to be generated or added to by the agent
   - (topic)/
     - (subtopic)/
       - (resource_title1).md
@@ -54,7 +54,7 @@ Here is an example structure that could be used to help generate a resource set 
       - flashcards.html
     - ...
   - ...
-  - style.css  // if needed, have a single css file that can be linked to from the any generated html resources, rather than inlining css in each resource file. This also allows for easier updating of style across the resource set, by just updating one css file.
+  - style.css  # if needed, have a single css file that can be linked to from the any generated html resources, rather than inlining css in each resource file. This also allows for easier updating of style across the resource set, by just updating one css file.
 
 ## Agent helpers
 
