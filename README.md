@@ -2,7 +2,7 @@
 
 This resource was originally created for T-Level software developer students to learn about agentic development as a final year, post exam project, before they go to university or into work. However, it is also suitable for any software developer who wants to learn about and practice agentic development on a real project. The approaches detailed here are being used successfully on real projects. Additional guidance has been added for teachers wanting to use harnesses for generating learning resources.
 
-See contents of `audience/` for more specific advice for software developers and T-Level students.
+See contents of [`audience/`](./audience/) for more specific advice for software developers, T-Level teachers and T-Level students.
 
 **For a general overview of agentic development and its benefits, see [`agentic-dev.md`](./agentic-dev.md). If you're unsure about what different terms mean, or if it's worth the effort, definitely check that out first.**
 
