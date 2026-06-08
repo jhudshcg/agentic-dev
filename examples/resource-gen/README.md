@@ -56,4 +56,8 @@ Here is an example structure that could be used to help generate a resource set 
   - ...
   - style.css  // if needed, have a single css file that can be linked to from the any generated html resources, rather than inlining css in each resource file. This also allows for easier updating of style across the resource set, by just updating one css file.
 
-       
+## Agent helpers
+
+In the agents folder inside resource-gen, you will find agents with distinct roles to help you with the different stages of resource creation: 'plan', 'prep', 'implement'. They will help you create and maintain the kind of structure shown above, while working with you to clarify exactly what needs to be created. To get started, the contents of agents/ should be copied to repo agents folder inside .github/agents, then you'll be able to select them from the agent menu when you open a chat window.
+
+You can of course also modify the agents to suit your prefered roles, style or workflow.
