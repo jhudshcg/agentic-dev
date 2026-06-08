@@ -41,10 +41,10 @@ Here is an example structure that could be used to help generate a resource set 
   -  learner_profile.md  // describe the level and type of student which the resources are being make for
   -  resource_set_template.md  // detail the type and structure of resources to be made, including naming conventions, types and number of files for each subtopic, sections to include in each type of file, how many exam style question to generate for each activities file, styles to (re)use, etc.
 - resources/   // contents of folder to be generated or added to by the agent
-  -  <topic>/
-    -  <subtopic>/
-       -  <resource_title1>.md
-       -  <resource_title2>.md
+  -  (topic)/
+    -  (subtopic)/
+       -  (resource_title1).md
+       -  (resource_title2).md
        -  ...
        -  answers1.md
        -  answers2.md
