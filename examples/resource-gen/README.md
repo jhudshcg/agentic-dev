@@ -35,8 +35,8 @@ Here is an example structure that could be used to help generate a resource set 
     - project1_rubric.md
     - project2_rubric.md
     - ...
-  -  checkpoint_<date1>.md  # persist state and direction between sessions relating work on resources
-  -  checkpoint_<date2>.md  # use different dated checkpoint files to manage work on different dates. alternatively can divide checkpoints by resource features.
+  -  checkpoint_(date1).md  # persist state and direction between sessions relating work on resources
+  -  checkpoint_(date2).md  # use different dated checkpoint files to manage work on different dates. alternatively can divide checkpoints by resource features or roles.
   -  ...
   - learner_profile.md  # describe the level and type of student which the resources are being make for
   - requirements.md   # detail the objective for the resource set, and the requirements for the resources to be generated, including any specific requirements for style, tone, format, structure, content, length etc. that should be followed across the resource set. This file can be referenced from AGENTS.md and checkpoint files to help guide generation and maintain consistency across the resource set.
